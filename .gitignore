@@ -1,4 +1,29 @@
+# ============================================================
+# ET_MeetingRoom_ePaperSign — .gitignore
+# ============================================================
+
+# Secret configuration — NEVER commit real credentials
+include/config.h
+
+# ============================================================
+# Arduino / PlatformIO build artefacts
+# ============================================================
+.pio/
+.pioenvs/
+.piolibdeps/
+*.elf
+*.bin
+*.hex
+*.map
+*.lst
+
+# Arduino IDE cache & temp files
+/build/
+*.ino.cpp
+
+# ============================================================
 # Prerequisites
+# ============================================================
 *.d
 
 # Compiled Object files
