@@ -1,20 +1,181 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!--
-  eSignET_sequence.drawio
-  Sequence diagram for the ET_MeetingRoom_ePaperSign project.
-
-  Replace the placeholder shapes below with the actual sequence diagram
-  using draw.io (https://app.diagrams.net/).
--->
-<mxGraphModel>
-  <root>
-    <mxCell id="0" />
-    <mxCell id="1" parent="0" />
-    <!-- Placeholder: import the actual sequence diagram here -->
-    <mxCell id="2" value="eSignET Sequence Diagram&#xa;(placeholder — replace with actual diagram)"
-            style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;"
-            vertex="1" parent="1">
-      <mxGeometry x="80" y="80" width="400" height="60" as="geometry" />
-    </mxCell>
-  </root>
-</mxGraphModel>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36">
+  <diagram name="Page-1" id="BDBF16uNhQIy-ms85k6W">
+    <mxGraphModel dx="1414" dy="777" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="660" width="50" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-4" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="374" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;code&gt;SharePoint Server&lt;/code&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="314" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-6" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;span style=&quot;font-family: Helvetica; white-space: normal;&quot;&gt;SenseCraft HMI&lt;/span&gt;&lt;/pre&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="495" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-8" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="791" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;pre class=&quot;overflow-visible! px-0!&quot; data-start=&quot;33&quot; data-end=&quot;279&quot;&gt;&lt;div class=&quot;relative w-full mt-4 mb-1&quot;&gt;&lt;div class=&quot;&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;h-full min-h-0 min-w-0&quot;&gt;&lt;div class=&quot;border border-token-border-light border-radius-3xl corner-superellipse/1.1 rounded-3xl&quot;&gt;&lt;div class=&quot;h-full w-full border-radius-3xl bg-token-bg-elevated-secondary corner-superellipse/1.1 overflow-clip rounded-3xl lxnfua_clipPathFallback&quot;&gt;&lt;div class=&quot;relative&quot;&gt;&lt;div class=&quot;pe-11 pt-3&quot;&gt;&lt;div class=&quot;relative z-0 flex max-w-full&quot;&gt;&lt;div id=&quot;code-block-viewer&quot; dir=&quot;ltr&quot; class=&quot;q9tKkq_viewer cm-editor z-10 light:cm-light dark:cm-light flex h-full w-full flex-col items-stretch ͼd ͼr&quot;&gt;&lt;div class=&quot;cm-scroller&quot;&gt;&lt;pre class=&quot;cm-content q9tKkq_readonly m-0&quot;&gt;&lt;span style=&quot;font-family: Helvetica; white-space: normal;&quot;&gt;XIAO ESP32-S3 API Wrapper&lt;/span&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/pre&gt;&lt;p data-start=&quot;281&quot; data-end=&quot;484&quot;&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="30" width="120" x="731" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-10" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="80" y="280" as="sourcePoint" />
+            <mxPoint x="375" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-11" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-10" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Create / Update booking room" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="2" as="geometry">
+            <mxPoint x="24" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Data mapping" vertex="1">
+          <mxGeometry height="60" width="120" x="735" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="75" y="117" as="sourcePoint" />
+            <mxPoint x="554" y="117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-14" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Create / Update page design&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2333" y="-3" as="geometry">
+            <mxPoint x="-150" y="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-17" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="785" y="416" as="sourcePoint" />
+            <mxPoint x="375" y="416" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-18" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET SharePoint Server 2019 REST list endpoint" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="2" as="geometry">
+            <mxPoint x="-19" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-32" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1094" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="reTerminal E1002" vertex="1">
+          <mxGeometry height="30" width="120" x="1034" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-34" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="555" y="223" as="sourcePoint" />
+            <mxPoint x="1095" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-35" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(251, 251, 251);&quot;&gt;Update page&lt;/span&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="13" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-41" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="USER" vertex="1">
+          <mxGeometry height="60" width="30" x="30" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-44" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1085" y="347" as="sourcePoint" />
+            <mxPoint x="795" y="347" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-45" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET http://xiao-esp32s3.local/rooms?part=headers" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="-18" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-46" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1085" y="387" as="sourcePoint" />
+            <mxPoint x="795" y="387" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-47" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-46" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="GET http://xiao-esp32s3.local/rooms?part=data" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="-18" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-48" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="785" y="457" as="sourcePoint" />
+            <mxPoint x="375" y="457" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-49" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-48" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JSON response" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="2" as="geometry">
+            <mxPoint x="-19" y="-12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-50" edge="1" parent="1" style="endArrow=none;html=1;rounded=0;startArrow=classic;startFill=1;endFill=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1085" y="567" as="sourcePoint" />
+            <mxPoint x="795" y="567" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-51" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-50" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="JSON response" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="-18" y="-18" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-52" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#3399FF;fontColor=#3399FF;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-53" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;fontColor=#3399FF;" value="Wifi access" vertex="1">
+          <mxGeometry height="30" width="120" x="1300" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-54" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#3399FF;fontColor=#3399FF;" target="-lnNGlNTkfaor_t-W6RU-56" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="160" as="sourcePoint" />
+            <mxPoint x="1270" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-55" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-54" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;strokeColor=#3399FF;" value="" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="13" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-60" edge="1" parent="1" source="-lnNGlNTkfaor_t-W6RU-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#3399FF;fontColor=#3399FF;" target="-lnNGlNTkfaor_t-W6RU-56" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360" y="60" as="sourcePoint" />
+            <mxPoint x="1360" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;fontColor=#3399FF;" value="Public Access Point" vertex="1">
+          <mxGeometry height="60" width="120" x="1300" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-61" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeColor=#3399FF;fontColor=#3399FF;" target="-lnNGlNTkfaor_t-W6RU-63" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1098" y="290" as="sourcePoint" />
+            <mxPoint x="1268" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-62" connectable="0" parent="-lnNGlNTkfaor_t-W6RU-61" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#3399FF;strokeColor=#3399FF;" value="" vertex="1">
+          <mxGeometry relative="1" x="-0.1556" y="3" as="geometry">
+            <mxPoint x="13" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-lnNGlNTkfaor_t-W6RU-63" parent="1" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#3399FF;fontColor=#3399FF;" value="RAP" vertex="1">
+          <mxGeometry height="60" width="120" x="1298" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
