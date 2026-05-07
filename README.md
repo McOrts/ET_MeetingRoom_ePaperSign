@@ -36,8 +36,8 @@ Key goals:
 
 | Component | Role |
 |-----------|------|
-| [Seeed Studio XIAO ESP32-S3](https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/) | API Wrapper — runs the firmware in this repository |
-| [Seeed Studio reTerminal E1002](https://wiki.seeedstudio.com/reterminal_e1002/) | Full-color ePaper Display — consumes the wrapper API |
+| [Seeed Studio XIAO ESP32-S3]([https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/](https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html)) | API Wrapper — runs the firmware in this repository |
+| [Seeed Studio reTerminal E1002]([https://wiki.seeedstudio.com/reterminal_e1002/](https://www.seeedstudio.com/reTerminal-E1002-p-6533.html)) | Full-color ePaper Display — consumes the wrapper API |
 | Internal LAN / Wi-Fi AP | Transport between all three components |
 | SharePoint Server 2019 (on-premises) | Authoritative data source for room bookings |
 
