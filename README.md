@@ -1,9 +1,13 @@
 # Integrated ePaper sign for room reservations in a military environment.
-<img src="img/ET_MeetingRoom_ePaperSign.jpg" width="300" align="left"/>
+<img src="img/ET_MeetingRoom_ePaperSign.jpg" width="400" align="left"/>
 Integrated electronic ink sign for meeting rooms based on SeeedStudio devices — a lightweight REST API wrapper running on a **Seeed Studio XIAO ESP32-S3** that bridges a **reTerminal E1002 Full-color ePaper Display** with a **SharePoint Server 2019** room-booking calendar.
 </p>
 𝗗𝗶𝘀𝗰𝗹𝗮𝗶𝗺𝗲𝗿:
 𝘈𝘭𝘭 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯 𝘴𝘩𝘰𝘸𝘯 𝘪𝘴 𝘧𝘪𝘤𝘵𝘪𝘵𝘪𝘰𝘶𝘴 𝘢𝘯𝘥 𝘵𝘩𝘦𝘳𝘦𝘧𝘰𝘳𝘦 𝘥𝘰𝘦𝘴 𝘯𝘰𝘵 𝘤𝘰𝘳𝘳𝘦𝘴𝘱𝘰𝘯𝘥 𝘵𝘰 𝘢𝘯𝘺 𝘳𝘦𝘢𝘭 𝘥𝘢𝘵𝘢 𝘰𝘳 𝘪𝘯𝘧𝘰𝘳𝘮𝘢𝘵𝘪𝘰𝘯 𝘧𝘳𝘰𝘮 𝘵𝘩𝘦 𝘚𝘱𝘢𝘯𝘪𝘴𝘩 𝘈𝘳𝘮𝘺.
+
+<br>
+<br>
+<br>
 
 ## Table of Contents
 
