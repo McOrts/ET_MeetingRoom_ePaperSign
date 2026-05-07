@@ -1,8 +1,6 @@
-# ET_MeetingRoom_ePaperSign
-
+# Informative ePaper sign for room reservations in a military environment.
+<img src="img/ET_MeetingRoom_ePaperSign.jpg" width="300" align="left"/>
 Integrated electronic ink sign for meeting rooms based on SeeedStudio devices — a lightweight REST API wrapper running on a **Seeed Studio XIAO ESP32-S3** that bridges a **reTerminal E1002 Full-color ePaper Display** with a **SharePoint Server 2019** room-booking calendar.
-
----
 
 ## Table of Contents
 
@@ -21,7 +19,7 @@ Integrated electronic ink sign for meeting rooms based on SeeedStudio devices �
 ---
 
 ## Project Purpose
-
+<img src="img/ET_MeetingRoom_ePaperSign_installed.jpg" width="300" align="right"/>
 Digital signage has always been at the forefront of keeping teams informed. With powerful intranet tools like **SharePoint** driving modern collaboration, this project connects your SharePoint room-booking list directly to ePaper screens deployed across your facilities.
 
 Key goals:
@@ -44,24 +42,6 @@ Key goals:
 ---
 
 ## Solution Architecture
-
-```
-reTerminal E1002          XIAO ESP32-S3 Wrapper         SharePoint Server 2019
-(ePaper Display)          (this firmware)                (on-premises)
-       │                          │                              │
-       │  GET /rooms?part=…       │                              │
-       │  numSala: SALA_01        │                              │
-       │  clave: <secret>         │                              │
-       │─────────────────────────>│                              │
-       │                          │  GET /sites/reservas/…       │
-       │                          │  Authorization: Bearer <tok> │
-       │                          │─────────────────────────────>│
-       │                          │        OData JSON            │
-       │                          │<─────────────────────────────│
-       │                          │  (transform + cache)         │
-       │       JSON array         │                              │
-       │<─────────────────────────│                              │
-```
 
 ![Solution architecture](img/eSignET_architecure.png)
 
@@ -137,6 +117,9 @@ Content-Type: application/json
 ### `GET /rooms?part=headers`
 
 Returns the column names for the booking table.
+```http
+GET http://<xiao-ip>/rooms?part=headers
+```
 
 **Required request headers**
 
@@ -162,6 +145,9 @@ Returns the column names for the booking table.
 ### `GET /rooms?part=data`
 
 Returns all bookings for the requested room as a 2-D array.
+```http
+GET http://<xiao-ip>/rooms?part=data
+```
 
 **Required request headers** — same as above.
 
